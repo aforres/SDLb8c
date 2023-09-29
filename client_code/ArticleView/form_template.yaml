@@ -34,18 +34,18 @@ components:
     layout_properties: {grid_position: 'WAARJG,TAHOSC'}
     components:
     - type: Button
-      properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
-        foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: small,
-        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-        underline: false, icon: 'fa:pencil-square'}
+      properties: {role: filled-button, align: center, tooltip: Edit, border: '',
+        enabled: true, foreground: '', visible: true, text: '', font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: false, underline: false, icon: 'fa:pencil-square'}
       name: edit_article_button
       layout_properties: {grid_position: 'WAARJG,BDIJVO'}
       event_bindings: {click: edit_article_button_click}
     - type: Button
-      properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
-        foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: small,
-        icon_align: left, spacing_below: small, italic: false, background: 'theme:Error',
-        bold: false, underline: false, icon: 'fa:trash'}
+      properties: {role: filled-button, align: center, tooltip: Delete, border: '',
+        enabled: true, foreground: '', visible: true, text: '', font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: 'theme:Error', bold: false, underline: false, icon: 'fa:trash'}
       name: delete_article_button
       layout_properties: {}
       event_bindings: {click: delete_article_button_click}
